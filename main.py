@@ -20,3 +20,9 @@ if __name__ == "__main__":
     # Muestro de nuevo todos los clientes
     print("\n==LISTADO DE CLIENTES==")
     print(empresa.clientes)
+    # Añañdo un nuevo cliente
+    print("\n==AÑADIR NUEVO CLIENTE==")
+    empresa.añadir_cliente(Cliente("33333333C", "Lara", "Perez"))
+    # Muestro de nuevo todos los clientes
+    print("\n==LISTADO DE CLIENTES==")
+    print(empresa.clientes)

@@ -19,3 +19,7 @@ class Empresa:
                 print(f"Cliente con DNI {dni} borrado.")
                 return
         print(f"Cliente con DNI {dni} no encontrado.")
+
+    def añañdir_cliente(self, cliente):
+        self.clientes.append(cliente)
+        
