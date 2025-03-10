@@ -20,6 +20,5 @@ class Empresa:
                 return
         print(f"Cliente con DNI {dni} no encontrado.")
 
-    def añañdir_cliente(self, cliente):
+    def añadir_cliente(self, cliente):
         self.clientes.append(cliente)
-        
